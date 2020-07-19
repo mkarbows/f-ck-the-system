@@ -1,0 +1,21 @@
+.header {
+  margin: 0 auto;
+  text-align: center;
+  width: 25%;
+  margin-top: 30px;
+}
+
+.header-text {
+  font-family: 'cooper black';
+  color: red;
+  font-size: 34px;
+}
+
+.tabs {
+  margin-top: 35px;
+}
+
+.mat-tab-group {
+  color: red;
+}
+
