@@ -1,14 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
-@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
 
 @font-face {
-  font-family: lato;
+  font-family: "Cooper Black";
   src: url(/src/assets/font/CooperBlackStd.otf) format("opentype");
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto,
+  "Helvetica Neue", sans-serif;
+  background-color: black;
+}
 
 .mat-tab-label {
-  color: red;
+  color: #cecbd7;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #17C3B2;
+}
+
+.mat-accordian,
+.mat-expansion-panel,
+.mat-expansion-panel-header {
+  background-color: #272727;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mat-expansion-panel-header-title {
+  justify-content: center;
+  background-color: #272727;
+  /* color: #5B507A; */
+  color: white;
+  font-family: "Cooper Black", serif;
+  font-size: 24px;
+}
+
+.mat-expansion-panel-content {
+  text-align: center;
+  background-color: #272727;
+}
+
+.mat-divider {
+  background: #17C3B2;
+}
+
+.mat-raised-button {
+  background-color: #17C3B2;
+}
+
+.mat-icon {
+  color: #919090;
 }

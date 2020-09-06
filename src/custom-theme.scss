@@ -12,8 +12,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$f-ck-the-system-primary: mat-palette($mat-indigo);
-$f-ck-the-system-accent: mat-palette($mat-pink, A200, A100, A400);
+$f-ck-the-system-primary: mat-palette($mat-red);
+$f-ck-the-system-accent: mat-palette($mat-red, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $f-ck-the-system-warn: mat-palette($mat-red);
@@ -33,3 +33,5 @@ $f-ck-the-system-theme: mat-light-theme((
 // that you are using.
 @include angular-material-theme($f-ck-the-system-theme);
 
+// https://coolors.co/ff0000-000000-dbbea1-227c9d-17c3b2
+// https://coolors.co/ff0000-eca72c-5b507a-5b618a-000000
