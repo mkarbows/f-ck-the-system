@@ -2,22 +2,37 @@
   <mat-expansion-panel hideToggle>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        Breonna Taylor
+        BREONNA TAYLOR
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <button mat-raised-button (click)="BTPetition()">Justice for Breonna Taylor Petition</button>
-    <button mat-icon-button disabled aria-label="Example icon button with a open in new tab icon">
-      <mat-icon>open_in_new</mat-icon>
-    </button>
+    <div>
+      <button mat-raised-button
+        matTooltip="Grassroots Law Project"
+        (click)="BTPetition()">
+          STAND WITH BREONNA TAYLOR
+      </button>
+      <button mat-icon-button disabled aria-label="Example icon button with a open in new tab icon">
+        <mat-icon>open_in_new</mat-icon>
+      </button>
+  
+      <button mat-raised-button
+        matTooltip="change.org"
+        (click)="BTPetition2()">
+          JUSTICE FOR BREONNA TAYLOR
+      </button>
+      <button mat-icon-button disabled aria-label="Example icon button with a open in new tab icon">
+        <mat-icon>open_in_new</mat-icon>
+      </button>
+    </div>
 
   </mat-expansion-panel>
-
   <mat-divider></mat-divider>
+
 
   <mat-expansion-panel hideToggle>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        Jacob Black
+        JACOB BLAKE
       </mat-panel-title>
       <!-- <mat-panel-description>
         Killed in her home

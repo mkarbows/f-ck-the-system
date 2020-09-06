@@ -13,7 +13,11 @@ export class PetitionsComponent implements OnInit {
   }
 
   BTPetition() {
-    window.open('//petitions.whitehouse.gov/petition/justice-breonna-taylor-5');
+    window.open('//go.theactionpac.com/sign/stand-with-breonna?akid=s241348..ujFWHe');
+  }
+
+  BTPetition2() {
+    window.open('//chng.it/SCZ66jZyKB');
   }
 
 }
